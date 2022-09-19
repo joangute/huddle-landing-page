@@ -128,7 +128,7 @@ footer{
     background: hsl(257, 40%, 49%) no-repeat url("../images/bg-desktop.svg");
     background-size:auto 100vh;
     padding:6vh 4.5vw;
-    grid-template-rows:21% auto auto ;
+    grid-template-rows: 18.5vh auto auto ;
   }
   p{
     font-size: 1.125rem;
@@ -138,11 +138,14 @@ footer{
   }
   .hero{
     display: flex;
+    height: 50vh;
   }
   .hero-image{
     margin: 0;
     width: 50vw;
-  }
+    height: fit-content;
+
+      }
   .hero-text{
     text-align: left;
     padding: 2vw 2vw 0 3.5vw ;
