@@ -138,13 +138,13 @@ footer{
   }
   .hero{
     display: flex;
-    height: 50vh;
+    height: 64vh;
   }
   .hero-image{
     margin: 0;
     width: 50vw;
-    height: fit-content;
-
+/*    height: fit-content;
+*/
       }
   .hero-text{
     text-align: left;
